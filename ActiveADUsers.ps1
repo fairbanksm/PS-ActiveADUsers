@@ -1,1 +1,1 @@
-Get-ADUser -Filter 'enabled -eq $true' -Properties * | select Name, LastLogonDate, Enabled, AccountExpirationDate | Export-Csv c:\script\ad-users.csv
+Get-ADUser -Filter 'enabled -eq $true' -Properties * | select Name, LastLogonDate, Enabled, AccountExpirationDate, whenCreated | Export-Csv c:\script\ad-users.csv
