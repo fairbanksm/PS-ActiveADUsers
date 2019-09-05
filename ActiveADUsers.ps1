@@ -1,10 +1,10 @@
 
 #variables for mail message
-$from = "meghan.fairbanks@mnpass.net"
-$to = @("meghan.fairbanks@transcore.com")
+$from = ""
+$to = @("")
 $subject = "Active Directory Users Query"
 $body = "Monthly AD query users query"
-$smtpserver = "10.202.101.35"
+$smtpserver = ""
 
 $filepath = "c:\script\ad-users.csv"
 
