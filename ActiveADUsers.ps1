@@ -3,7 +3,7 @@
 $from = ""
 $to = @("")
 $subject = "Active Directory Users Query"
-$body = "Monthly AD query users query"
+$body = "Monthly AD users query."
 $smtpserver = ""
 
 $filepath = "c:\script\ad-users.csv"
